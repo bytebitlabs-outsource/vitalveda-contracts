@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+// SPDX-License-Identifier: GPL-3.0-or-later
+pragma solidity ^0.8.20;
 
 import {AccessControl} from "@openzeppelin/contracts/access/AccessControl.sol";
 import "forge-std/console2.sol";
 
-contract RoleManager is AccessControl {
+contract RoleManagement is AccessControl {
 
     bytes32 public constant GOVERNOR = keccak256("ROLE_GOVERNOR");
 
