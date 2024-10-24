@@ -35,7 +35,7 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/VVFit.s.sol:VVFitScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ sh deploy.sh
 ```
 
 ### Cast

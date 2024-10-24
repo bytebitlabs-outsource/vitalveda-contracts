@@ -13,7 +13,7 @@ contract WorkoutManagementTest is Test {
     VVFit private vvfit;
     WorkoutManagement wm;
     FeeManagement fm;
-    uint256 signerPrivateKey = 0x64b507b37b841fbc82407b3b8a24ade931890cb3285b10d4f90012799d84c46d;
+    uint256 signerPrivateKey = vm.envUint("PRIVATE_KEY");
     address signer = vm.addr(signerPrivateKey);
 
     function setUp() public {
