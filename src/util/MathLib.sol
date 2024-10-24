@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.26;
 
 library MathLib {
     function calculateFeeBps(uint256 amount_, uint256 feeBps_) external pure returns (uint256) {
